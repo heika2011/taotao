@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tt-consumer" />
+        <module name="tt-common" />
+        <module name="tt-user" />
+        <module name="用户业务" />
+        <module name="商品业务" />
+        <module name="公共接口" />
+        <module name="前段页面" />
+        <module name="tt-commodity" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ttInterface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="tt-commodity" options="-parameters" />
+      <module name="tt-common" options="-parameters" />
+      <module name="tt-consumer" options="-parameters" />
+      <module name="tt-user" options="-parameters" />
+      <module name="ttInterface" options="-parameters" />
+      <module name="公共接口" options="-parameters" />
+      <module name="前段页面" options="-parameters" />
+      <module name="商品业务" options="-parameters" />
+      <module name="用户业务" options="-parameters" />
+    </option>
+  </component>
+</project>
