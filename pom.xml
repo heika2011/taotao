@@ -6,6 +6,7 @@
     <groupId>cn.tt</groupId>
     <artifactId>taotao</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>tt-consumer</module>
         <module>tt-user</module>

@@ -1,394 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0fc324f-c102-426b-83f7-fdaebcabe8f2" name="Default Changelist" comment="2020 1 6 项目大体框架">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-commodity/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-commodity/target/classes/cn/tt/CommodityStart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-commodity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-commodity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-commodity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-commodity/target/tt-commodity-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-common/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-common/target/classes/cn/tt/common/service/TestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-common/target/tt-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/META-INF/tt-consumer.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/cn/tt/ConsumerStart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/cn/tt/controller/TestController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/css/admin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/css/amazeui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/css/amazeui.flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/css/amazeui.flat.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/css/amazeui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/admin-chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/admin-firefox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/admin-ie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/admin-opera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/admin-safari.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/adminPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/blogPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/landing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/landingPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/loginPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/examples/sidebarPage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/i/startup-640x1096.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/amazeui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/amazeui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/handlebars.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/AmazeUI-2.4.2/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/images/chongzhi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/images/ibar_sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/images/no-img_mid_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/images/wdsc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/images/weixin_code_145.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/js/jquery-1.7.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/js/jquery-1.9.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/basic/js/quick_links.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/addstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/appstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/bilstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/blogstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/blstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/bostyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/cartstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/cmstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/colstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/cpstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/dlstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/footstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/hmstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/infstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/jsstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/lostyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/newstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/optstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/orstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/personal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/point.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/refstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/seastyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/sortstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/stepstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/sustyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/vipstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/css/wallet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/-0-saturn_solar.jpg_220x220.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/0-item_pic.jpg_220x220.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/01_mid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/01_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/02_mid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/02_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/03_mid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/03_small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/1-item_pic.jpg_220x220.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/1_160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/2016.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/222.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/333.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/3CoOkxrFOP.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/556.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/557.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/559.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/566.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/566fda5cN4b8a1675.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/62988.jpg_80x80.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/65.jpg_120x120xz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/666.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/72h.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/88.jpg_120x120xz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/Balance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/BxJk6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/EZA27501.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/Hxcag60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/T13iv.XiFdXXa94Hfd-32-32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/TB102.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/TB1_pic.jpg_200x200.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/TJ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/TJ2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/YXARdXxj5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/act1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/act2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/act3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/activity.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/activity1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/activity2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/activity3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ad1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ad2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ad3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ad4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ad5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ad6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ad7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ad8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/addbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/addicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/addicon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/addicon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/advTip.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/bamboo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/bamboo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/bankjh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/bankns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/big.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog07.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/blog09.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/bonus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/browse1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cake.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/candy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/candy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cardbg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cardbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cardtype.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/checkbox.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/chocolate.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/chocolate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/chongzhi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/clockbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/combo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/combo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/combo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/combo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/comment.jpg_400x400.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/comment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cookies.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cookies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/coupon-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/coupon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/coupon2015.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/coupon20150805.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/couponli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/cp2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/day-to.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/extra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/fish.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/fish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/getAvatar.do.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/gift_intro_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/gift_stamp_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/gift_stamp_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/gift_stamp_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/gift_stamp_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/gift_stamp_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/header-bg1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/heart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/huismall.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/hwbn40x40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/ibar_sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/icon-sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/icon_bar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/icon_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/icon_progress_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconbig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconfont-bad.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconfont-badon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconfont-evaluate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconfont-good.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconfont-middle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconsmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconsmall0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconsmall1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconsmall2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/iconsmall3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/imgBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/imgsearch1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/index_ico_png32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/item-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/kouhong.jpg_80x80.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/kuaidi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/list1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/listsmall1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/logobig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/logobig1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/logobig2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/mansmall.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/meat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/meat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/moneysmall.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/mygift_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/navce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/navsmall.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/no-img_mid_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/nut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/nut.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/package.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/package.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/pay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/peraddbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/peraddress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/peraddressbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/pig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/profit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/receive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/refund.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/return-process-cd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/row1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/row2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/row3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/row4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/safe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/safe_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/sale-t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/sale-t_clock.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/sale1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/sale2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/sale3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/scoll1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/scoll2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/send.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/shopping.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/side.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/songzi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/sys_item_selected.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tj.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tj1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tj2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tw1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tw2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tw3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tw4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tw5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tw6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/tw7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/u5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/u6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/wallet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/wangyin.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/wdsc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/weixin_code_145.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/weizhifu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/youzi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/zhifubao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/images/图标.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/js/address.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/js/jquery-1.7.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/js/jquery.flexslider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/js/jquery.imagezoom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/js/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/home3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/introduction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/bill.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/billlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/bindphone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/bonus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/cardlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/cardmethod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/collection.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/commentlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/consultation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/coupon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/frame.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/idcard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/information.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/logistics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/orderinfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/pointnew.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/points.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/question.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/record.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/refund.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/safety.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/setpay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/suggest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/wallet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/person/walletlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/shopcart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/sort.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/classes/templates/pages/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-consumer/target/tt-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/classes/META-INF/tt-user.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/classes/cn/tt/UserStart.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/classes/cn/tt/user/service/TestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-user/target/tt-user-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="e0fc324f-c102-426b-83f7-fdaebcabe8f2" name="Default Changelist" comment="2020年1月6日 &#10;项目大体框架&#10;--谢">
+      <change afterPath="$PROJECT_DIR$/tt-common/src/main/java/cn/tt/common/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-common/src/main/resources/properties/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-user/src/main/java/cn/tt/user/service/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-user/src/main/java/cn/tt/user/service/TestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-user/target/classes/cn/tt/user/service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tt-user/target/classes/cn/tt/user/service/TestService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -410,7 +29,90 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-commodity/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-user/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tt-common/src/main/resources/properties/redis.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37">
+              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-user/src/main/java/cn/tt/UserStart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-user/src/main/java/cn/tt/user/service/TestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-user/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-common/src/main/java/cn/tt/common/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#436#450#1" expanded="true" />
+                <element signature="e#487#502#1" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -431,7 +133,6 @@
         <option value="$PROJECT_DIR$/tt-Interface/pom.xml" />
         <option value="$PROJECT_DIR$/tt-Interface/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tt-commodity/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/tt-common/src/main/resources/templates/pages/index.html" />
         <option value="$PROJECT_DIR$/tt-consumer/src/main/java/cn/tt/SpringbootStart.java" />
         <option value="$PROJECT_DIR$/tt-user/src/main/resources/applicatiom.yml" />
@@ -441,7 +142,6 @@
         <option value="$PROJECT_DIR$/tt-user/pom.xml" />
         <option value="$PROJECT_DIR$/tt-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/tt-common/src/main/java/cn/tt/common/service/TestService.java" />
-        <option value="$PROJECT_DIR$/tt-user/src/main/java/cn/tt/user/service/TestService.java" />
         <option value="$PROJECT_DIR$/tt-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/tt-user/src/main/java/cn/tt/SpringbootRun.java" />
         <option value="$PROJECT_DIR$/tt-user/src/main/java/cn/tt/Use.java" />
@@ -453,6 +153,10 @@
         <option value="$PROJECT_DIR$/tt-consumer/src/main/resources/templates/pages/home3.html" />
         <option value="$PROJECT_DIR$/tt-user/src/main/java/cn/tt/UserStart.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-common/src/main/resources/redis.properties" />
+        <option value="$PROJECT_DIR$/tt-user/src/main/java/cn/tt/user/service/TestService.java" />
+        <option value="$PROJECT_DIR$/tt-common/src/main/java/cn/tt/common/config/RedisConfig.java" />
       </list>
     </option>
   </component>
@@ -480,13 +184,6 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="246" />
     <option name="y" value="64" />
@@ -505,6 +202,179 @@
             <path>
               <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
               <item name="taotao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="tt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="tt" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="tt" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="tt" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="tt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="tt" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="tt" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taotao" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taotao" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -532,14 +402,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Xie Xin\Desktop\shangcheng\taotao\tt-common\src\main\resources\properties" />
+      <recent name="C:\Users\Xie Xin\Desktop\shangcheng\taotao\tt-consumer\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Xie Xin\Desktop\shangcheng\taotao\tt-consumer\src\main\resources\templates\pages\person" />
       <recent name="C:\Users\Xie Xin\Desktop\shangcheng\taotao\tt-consumer\src\main\resources\static" />
       <recent name="C:\Users\Xie Xin\Desktop\shangcheng\taotao\tt-consumer\src\main\resources\templates\pages" />
       <recent name="C:\Users\Xie Xin\Desktop\shangcheng\taotao\tt-commodity\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Xie Xin\Desktop\shangcheng\taotao\tt-consumer\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -615,7 +486,7 @@
       <workItem from="1577964695354" duration="3230000" />
       <workItem from="1578277200988" duration="10316000" />
       <workItem from="1578296034559" duration="27000" />
-      <workItem from="1578296088699" duration="238000" />
+      <workItem from="1578296088699" duration="2509000" />
     </task>
     <task id="LOCAL-00001" summary="2020 1 6 项目大体框架">
       <created>1578295759819</created>
@@ -624,14 +495,22 @@
       <option name="project" value="LOCAL" />
       <updated>1578295759819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2020年1月6日 &#10;项目大体框架&#10;--谢">
+      <created>1578296360125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578296360125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13811000" />
+    <option name="totallyTimeSpent" value="16082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -645,17 +524,17 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32910052" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.40042374" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49947917" visible="true" weight="0.40042374" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32910052" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005208" side_tool="true" weight="0.40042374" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32944915" />
       <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -672,9 +551,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2020 1 6 项目大体框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="2020 1 6 项目大体框架" />
+    <MESSAGE value="2020年1月6日 &#10;项目大体框架&#10;--谢" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020年1月6日 &#10;项目大体框架&#10;--谢" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tt-Interface/src/main/resources/application.yml" />
@@ -685,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tt-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -699,45 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt-common/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tt-common/src/main/java/cn/tt/common/service/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-user/src/main/java/cn/tt/user/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-commodity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -819,22 +667,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt-user/src/main/java/cn/tt/UserStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-common/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-commodity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-common/src/main/java/cn/tt/common/config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-user/src/main/java/cn/tt/UserStart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-common/src/main/java/cn/tt/common/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#436#450#1" expanded="true" />
+            <element signature="e#487#502#1" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-user/src/main/java/cn/tt/user/service/TestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-common/src/main/resources/properties/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -888,7 +800,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tt-consumer</last-edited>
+          <last-edited>tt-commodity</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
