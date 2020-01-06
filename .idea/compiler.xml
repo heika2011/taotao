@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tt-consumer" />
+        <module name="用户业务" />
         <module name="tt-common" />
         <module name="tt-user" />
-        <module name="用户业务" />
+        <module name="tt-consumer" />
         <module name="商品业务" />
         <module name="公共接口" />
         <module name="前段页面" />

@@ -1,0 +1,15 @@
+server:
+  port: 9001
+dubbo:
+  scan:
+    basePackages: cn.tt
+  application:
+    name: consumer-web
+  registry:
+    address: zookeeper://106.13.58.226:2181?backup=106.12.201.215:2182,106.12.82.143:2183
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/pages/
+    suffix: .html
+    cache: false
