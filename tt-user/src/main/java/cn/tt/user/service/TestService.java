@@ -4,6 +4,9 @@ import com.alibaba.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
 import redis.clients.jedis.Jedis;
 
+/**
+ * 框架测试类
+ */
 @Service
 public class TestService implements cn.tt.common.service.TestService {
 

@@ -142,10 +142,8 @@ public class ImageCodeUtil {
         return  image;
     }
     //将验证码图片写出的方法
-    public static void writeImageCode(BufferedImage image, OutputStream out) throws IOException {
+    public static void writeImageCode(BufferedImage image, String png, OutputStream out) throws IOException {
         ImageIO.write(image, "JPEG", out);
-
-
     }
 
 
