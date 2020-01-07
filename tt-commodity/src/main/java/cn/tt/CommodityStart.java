@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class CommodityStart {
 
     public static void main(String[] args) {
+
         SpringApplication.run(CommodityStart.class,args);
+        System.out.println("cg");
     }
 }
