@@ -145,6 +145,4 @@ public class ImageCodeUtil {
     public static void writeImageCode(BufferedImage image, String png, OutputStream out) throws IOException {
         ImageIO.write(image, "JPEG", out);
     }
-
-
 }
