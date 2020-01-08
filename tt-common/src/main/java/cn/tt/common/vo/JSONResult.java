@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * JSON数据返回对象
@@ -33,5 +34,12 @@ public class JSONResult implements Serializable {
     private String msg="OK";
     /* 数据 */
     private Object data;
+
+    //有参构造
+    public  JSONResult(Object data){
+    }
+
+
+
 
 }
