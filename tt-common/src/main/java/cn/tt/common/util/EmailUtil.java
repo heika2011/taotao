@@ -6,7 +6,10 @@ import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 import java.util.Random;
 
-
+/**
+ *  邮箱发送
+ * @吴洋
+ */
 public class EmailUtil {
     /**
      *
@@ -18,26 +21,7 @@ public class EmailUtil {
      * @throws Exception
      */
     public static boolean Email(String contents,String send,String inbox,String title){
-        String s="";
-        {
-            Random random = new Random();
-
-            for (int i=0;i<6;i++){
-                int i1 = random.nextInt(10);
-                s += Integer.toString(i1);
-            }
-        }
-        //网易邮箱为例：
-        Properties props = new Properties();
-         //表明使用smtp协议
-        props.setProperty("mail.transport.protocol", "smtp");
-        //设置SMTP服务器地址
-        props.setProperty("mail.smtp.host", "smtp.163.com");
-        //设置端口(可忽略)
-        props.put("mail.smtp.port", 25);
-        //开启验证
-        props.setProperty("mail.smtp.auth", "true");
-
+        Properties props=CreateProperties();
         //1.基于上述参数创建Session对象
         Session session = Session.getInstance(props, new Authenticator() {
             @Override //定义真实发送者的信息，密码是：客户端授权码
@@ -71,17 +55,8 @@ public class EmailUtil {
         }
 
     }
-    public static boolean EmailCode(String send,String inbox,String title){
-        String s="";
-        {
-            Random random = new Random();
 
-            for (int i=0;i<6;i++){
-                int i1 = random.nextInt(10);
-                s += Integer.toString(i1);
-            }
-        }
-        //网易邮箱为例：
+    private static Properties CreateProperties() {
         Properties props = new Properties();
         //表明使用smtp协议
         props.setProperty("mail.transport.protocol", "smtp");
@@ -91,6 +66,26 @@ public class EmailUtil {
         props.put("mail.smtp.port", 25);
         //开启验证
         props.setProperty("mail.smtp.auth", "true");
+        return props;
+    }
+
+    private static String CreateRandom() {
+        String s="";
+        {
+            Random random = new Random();
+
+            for (int i=0;i<6;i++){
+                int i1 = random.nextInt(10);
+                s += Integer.toString(i1);
+            }
+        }
+        return null;
+    }
+
+    public static boolean EmailCode(String send,String inbox,String title){
+        String s = CreateRandom();
+        //网易邮箱为例：
+        Properties props=CreateProperties();
 
         //1.基于上述参数创建Session对象
         Session session = Session.getInstance(props, new Authenticator() {
@@ -129,7 +124,6 @@ public class EmailUtil {
 
     public static void main(String[] args) {
       //  Email("yanzma","18782793944@163.com","964070059@qq.com","渣男");
-
         EmailCode("18782793944@163.com","964070059@qq.com","渣男");
     }
 }

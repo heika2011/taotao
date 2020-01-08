@@ -8,6 +8,10 @@ import javax.servlet.http.HttpServletRequest;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * 无恙
+ * @判断cookie是否存在
+ */
 public class TimeOutUtil {
     //判读cookie是否存在
 
