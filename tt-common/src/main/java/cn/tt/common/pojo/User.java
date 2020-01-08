@@ -27,7 +27,4 @@ public class User implements Serializable {
     private String enable;
     private Date createTiem;
 
-
-
-
 }

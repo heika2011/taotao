@@ -1,4 +1,4 @@
-package cn.tt.user.service.servierimpl;
+package cn.tt.user.service.serviceImpl.login;
 
 import cn.tt.common.exception.ServiceException;
 import cn.tt.common.pojo.User;
