@@ -31,8 +31,6 @@ public class UserServierImpl  implements UserService {
         if(user1==null){
         throw  new ServiceException("用户不存在");
     }
-
-
         return user1;
     }
 }
