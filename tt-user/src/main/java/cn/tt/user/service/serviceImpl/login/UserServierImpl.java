@@ -2,7 +2,7 @@ package cn.tt.user.service.serviceImpl.login;
 
 import cn.tt.common.exception.ServiceException;
 import cn.tt.common.pojo.User;
-import cn.tt.common.service.UserService;
+import cn.tt.common.service.user.UserService;
 import cn.tt.user.mapper.UserMapper;
 import com.alibaba.dubbo.config.annotation.Service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;

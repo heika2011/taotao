@@ -1,7 +1,7 @@
 package cn.tt.controller.User.login;
 
 import cn.tt.common.pojo.User;
-import cn.tt.common.service.UserService;
+import cn.tt.common.service.user.UserService;
 import cn.tt.common.vo.JSONResult;
 import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.RequestMapping;
