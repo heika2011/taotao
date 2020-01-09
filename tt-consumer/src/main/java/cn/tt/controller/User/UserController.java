@@ -1,12 +1,7 @@
 package cn.tt.controller.User;
 
-import cn.tt.common.pojo.User;
-import cn.tt.common.service.UserService;
-import cn.tt.common.vo.JSONResult;
-import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  *
