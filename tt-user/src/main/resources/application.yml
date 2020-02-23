@@ -4,7 +4,6 @@ server:
 spring:
   datasource:
     #引入druid数据源
-    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://106.13.167.45:3306/taotao?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
     username: root
     password: xiexinismine

@@ -17,13 +17,16 @@ public class UserServierImpl  implements UserService {
     @Autowired
     private UserMapper userMapper;
 
+    //判断用户是否存在
     @Override
     public User ifExist(User user) {
+        //获取到用户名为空
         if(user.getUsername()==null||user.getUsername()==""){
-            throw  new ServiceException("参数异常");
+            throw  new IllegalArgumentException("参数异常");
         }
+        //获取到密码为空
         if(user.getPassword()==null||user.getPassword()==""){
-            throw  new ServiceException("参数异常");
+            throw  new IllegalArgumentException("参数异常");
         }
         QueryWrapper<User> userQueryWrapper = new QueryWrapper<>(user);
 
