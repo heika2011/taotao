@@ -18,6 +18,13 @@ public class UserLoginController {
     private UserService userService;
 
     /** 登陆页面 */
+    @RequestMapping("/user/res")
+    public JSONResult Userres(User user){
+        userService.register(user);
+        return new JSONResult();
+    }
+
+    /** 登陆页面 */
     @RequestMapping("/user/dologin")
     public JSONResult Userlogin(User user){
         userService.ifExist(user);

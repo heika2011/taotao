@@ -28,4 +28,6 @@ public class User implements Serializable {
     private Boolean enable;      //用户是否被验证
     private Date createTime;    //用户创建时间
 
+
+
 }
