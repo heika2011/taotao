@@ -1,6 +1,7 @@
 package cn.tt.common.util;
 
 import javax.imageio.ImageIO;
+import javax.servlet.http.HttpServletResponse;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -121,7 +122,7 @@ public class ImageCodeUtil {
      * 获取验证码图片
      * @return
      */
-    public BufferedImage getImageCode(){
+    public BufferedImage getImageCode(HttpServletResponse response){
         //获取照片
         BufferedImage image = createImage();
         //获取画笔
@@ -137,10 +138,13 @@ public class ImageCodeUtil {
 
         }
         this.text=sb.toString();
+        CookieUtil.buydata(this.getText().toLowerCase(),response);
+
         drawLine(image);
 
         return  image;
     }
+
     //将验证码图片写出的方法
     public static void writeImageCode(BufferedImage image, String png, OutputStream out) throws IOException {
         ImageIO.write(image, png, out);

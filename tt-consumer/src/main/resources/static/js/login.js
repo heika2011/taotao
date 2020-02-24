@@ -4,7 +4,23 @@ layui.use(['layer'],function () {
     $=layui.jquery;
 
     $(".login-main").on("click","#js_submit",function () {
-        layer.msg('123123213123213213');
+        $.ajax({
+            url:"/user/dologin",
+            type:"post",
+            data:JSON.stringify({username:$("#user").val(),password:$("#password").val()}),
+            contentType:"application/json",
+            dataType:"json",
+            success:function (datas) {
+                if (datas.code==200){
+                    layer.msg("登录成功")
+                }else{
+                    layer.msg(datas.msg)
+
+                }
+
+            }
+        })
+
     })
 
 

@@ -37,6 +37,11 @@ public class JSONResult implements Serializable {
 
     //有参构造
     public  JSONResult(Object data){
+        this.data=data;
+    }
+    public  JSONResult(Throwable e ) {
+        this.code=CODE_UNNOFALSE;
+        this.msg=e.getMessage();
     }
 
 

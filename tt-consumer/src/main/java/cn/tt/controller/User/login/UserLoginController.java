@@ -2,10 +2,12 @@ package cn.tt.controller.User.login;
 
 import cn.tt.common.pojo.User;
 import cn.tt.common.service.user.UserService;
+import cn.tt.common.util.CookieUtil;
 import cn.tt.common.vo.JSONResult;
 import com.alibaba.dubbo.config.annotation.Reference;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * 无恙
@@ -17,16 +19,19 @@ public class UserLoginController {
     @Reference
     private UserService userService;
 
-    /** 登陆页面 */
-    @RequestMapping("/user/res")
-    public JSONResult Userres(User user){
+    /** 注册 */
+
+    @PostMapping("/user/res")
+    public JSONResult Userres(@RequestBody User user, HttpServletRequest servletRequest){
+        CookieUtil.getData(user.getCode(),servletRequest.getCookies());
         userService.register(user);
         return new JSONResult();
     }
 
     /** 登陆页面 */
-    @RequestMapping("/user/dologin")
-    public JSONResult Userlogin(User user){
+    @PostMapping("/user/dologin")
+
+    public JSONResult Userlogin(  @RequestBody User user){
         userService.ifExist(user);
         return new JSONResult();
     }

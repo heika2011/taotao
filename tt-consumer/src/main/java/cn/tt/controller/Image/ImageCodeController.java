@@ -1,6 +1,7 @@
 package cn.tt.controller.Image;
 
 
+import cn.tt.common.util.CookieUtil;
 import cn.tt.common.util.ImageCodeUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,8 +35,9 @@ public class ImageCodeController {
             response.setHeader("Cache-Control", "no-cache");
             response.setDateHeader("Expires", 0);
             ImageCodeUtil image = new ImageCodeUtil();
-            ImageCodeUtil.writeImageCode(image.getImageCode(),"png",response.getOutputStream());
+            ImageCodeUtil.writeImageCode(image.getImageCode(response),"png",response.getOutputStream());
             System.out.println(image.getText());
+
         }
     }
 }

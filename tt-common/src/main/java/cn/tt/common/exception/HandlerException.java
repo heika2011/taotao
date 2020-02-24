@@ -16,7 +16,7 @@ public class HandlerException {
      * @return
      */
     @ExceptionHandler(RuntimeException.class)
-    public JSONResult fail(RuntimeException e){
+    public JSONResult fail(Throwable e){
         e.printStackTrace();
         return new JSONResult(e);
     }
